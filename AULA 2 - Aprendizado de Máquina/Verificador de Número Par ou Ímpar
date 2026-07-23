@@ -1,0 +1,18 @@
+
+
+import streamlist as st
+
+
+
+st.header('verificador par ou Ímpar')
+
+
+n1 = st.number_input('6')
+
+
+
+if st.button('VERIFICAR'):
+    if n1  % 2 == 0:
+       st.info('par')
+    else:
+        st.info('impar')
